@@ -29,7 +29,7 @@ Estimating the parameters of Bayesian models has always been hard, impossibly ha
 
 ## Software Setup
 
-This tutorial will be based on **Python 2**. Everything should work with Python 3 as well, but we can't guarantee it.
+This tutorial will be based on **Python 2**, though thanks to @magsol we know that it works with **Python 3**, too.
 
 1. Leave your current [virtualenv](https://virtualenv.pypa.io) if applicable:
 	```sh
