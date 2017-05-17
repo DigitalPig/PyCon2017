@@ -32,39 +32,39 @@ Estimating the parameters of Bayesian models has always been hard, impossibly ha
 This tutorial will be based on **Python 2**. Everything should work with Python 3 as well, but we can't guarantee it.
 
 1. Leave your current [virtualenv](https://virtualenv.pypa.io) if applicable:
-```sh
-$ deactivate
-```
+	```sh
+	$ deactivate
+	```
 
-2. Create a new virtualenv called `pycon` (you can change the name of course):
-```sh
-$ mkdir -p ~/VirtualEnv/pycon
-$ virtualenv -p $(which python2.7) ~/VirtualEnv/pycon
-$ source ~/VirtualEnv/pycon/bin/activate
-```
+2. Create a new virtualenv called `pycon` (you can change the name and location of course):
+	```sh
+	$ mkdir -p ~/VirtualEnv/pycon
+	$ virtualenv -p $(which python2.7) ~/VirtualEnv/pycon
+	$ source ~/VirtualEnv/pycon/bin/activate
+	```
 
 3. Install TensorFlow, Edward, and Seaborn to the virtualenv `pycon`:
-```sh
-(pycon) $ pip install --upgrade tensorflow
-(pycon) $ pip install -e "git+https://github.com/blei-lab/edward.git#egg=edward"
-(pycon) $ pip install seaborn
-```
-If you have a CUDA-capable NVIDIA graphics chip in your laptop, you may want to follow special installation instructions available on the [TensorFlow web page](https://www.tensorflow.org/install/). If you don't, everything will work just fine as well.
+	```sh
+	(pycon) $ pip install --upgrade tensorflow
+	(pycon) $ pip install -e "git+https://github.com/blei-lab/edward.git#egg=edward"
+	(pycon) $ pip install seaborn
+	```
+	If you have a CUDA-capable NVIDIA graphics chip in your laptop, you may want to follow special installation instructions available on the [TensorFlow web page](https://www.tensorflow.org/install/). If you don't, everything will work just fine as well.
 
 4. Install Jupyter Notebook into the `pycon` virtual environment:
-```sh
-(pycon) $ pip install jupyter
-(pycon) $ ipython kernel install --user --name python2_pycon --display-name "Python 2 (PyCon)"
-```
+	```sh
+	(pycon) $ pip install jupyter
+	(pycon) $ ipython kernel install --user --name python2_pycon --display-name "Python 2 (PyCon)"
+	```
 
 5. Start the Jupyter Notebook:
-```sh
-(pycon) $ jupyter notebook --no-browser
-```
+	```sh
+	(pycon) $ jupyter notebook --no-browser
+	```
 
 6. Clone this repository.
-```sh
-(pycon) $ git clone git@github.com:UnataInc/PyCon2017.git
-```
+	```sh
+	(pycon) $ git clone git@github.com:UnataInc/PyCon2017.git
+	```
 
 7. Open `tutorial.ipynb` in Jupyter and make sure the kernel is set to "Python 2 (PyCon)".
