@@ -70,5 +70,5 @@ This tutorial will be based on **Python 2**. Everything should work with Python 
 7. Open the notebook, `tutorial.ipynb`, in Jupyter and make sure the kernel is set to "Python 2 (PyCon)".
 
 8. (Optional) In the notebook, there is the option to render a video. For this to work properly, you need [FFmpeg](https://ffmpeg.org) and one out of two video encoding libraries:
-  * H.264. Please follow the installation instructions [here](https://trac.ffmpeg.org/wiki/How%20to%20quickly%20compile%20FFmpeg%20with%20libx264%20(x264%2C%20H.264)) or use a packaging tool (e.g., just `sudo apt-get install ffmpeg` on Ubuntu Linux).
-  * Webm. Please follow the installation instructions [here](http://wiki.webmproject.org/ffmpeg/building-with-libvpx) or use a packaging tool.
+    * H.264. Please follow the installation instructions [here](https://trac.ffmpeg.org/wiki/How%20to%20quickly%20compile%20FFmpeg%20with%20libx264%20(x264%2C%20H.264)) or use a packaging tool (e.g., just `sudo apt-get install ffmpeg` on Ubuntu Linux).
+    * Webm. Please follow the installation instructions [here](http://wiki.webmproject.org/ffmpeg/building-with-libvpx) or use a packaging tool.
