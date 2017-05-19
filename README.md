@@ -7,6 +7,10 @@ Thursday, May 18, 9 a.m.–12:20 p.m.
 
 [Torsten Scholak](https://twitter.com/tscholak), [Diego Maniloff](https://us.pycon.org/2017/speaker/profile/1894/)
 
+## Slides
+
+Please find the slides here, [http://tscholak.github.io/assets/PyConEdward](http://tscholak.github.io/assets/PyConEdward/#/).
+
 ## Abstract
 
 There has been uprising of probabilistic programming and Bayesian statistics. These techniques are tremendously useful, because they help us to understand, to explain, and to predict data through building a model that accounts for the data and is capable of synthesizing it. This is called the generative approach to statistical pattern recognition.

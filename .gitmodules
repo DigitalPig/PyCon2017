@@ -1,0 +1,3 @@
+[submodule "slideSources"]
+	path = slideSources
+	url = git@github.com:tscholak/PyConEdward.git
