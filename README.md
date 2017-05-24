@@ -11,6 +11,10 @@ Thursday, May 18, 9 a.m.–12:20 p.m.
 
 Please find the slides here, [http://tscholak.github.io/assets/PyConEdward](http://tscholak.github.io/assets/PyConEdward/#/).
 
+## Video Recording
+
+A recording of the tutorial has been published on YouTube, [https://youtu.be/fR5Wvb86-IU](https://youtu.be/fR5Wvb86-IU).
+
 ## Abstract
 
 There has been uprising of probabilistic programming and Bayesian statistics. These techniques are tremendously useful, because they help us to understand, to explain, and to predict data through building a model that accounts for the data and is capable of synthesizing it. This is called the generative approach to statistical pattern recognition.
